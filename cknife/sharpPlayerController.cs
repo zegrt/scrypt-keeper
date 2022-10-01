@@ -68,4 +68,9 @@ public class Player : MonoBehaviour
             superJump++;
         }
     }
+
+    private void OnCollisionEnter(Collision collision) 
+    {
+        return;    
+    }
 }
